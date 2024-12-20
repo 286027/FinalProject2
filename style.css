@@ -14,13 +14,22 @@ MISC
   }
   .nav-link {
     color: #E0AF2E;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
   }
   .nav-link:hover {
     color:#E0AF2E;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
   }
   .btn-unique {
     background-color: #E0AF2E;
     color: #000;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
   }
   .btn-unique:hover {
     background-color: #E0AF2E;
@@ -53,13 +62,24 @@ MISC
     color: #E0AF2E;
     font-size: 56px;
     font-weight: 900;
+    font-family: "Poppins", serif;
+  
+    font-style: normal;
   }
   
   .hero-section .lead {
-    color: #fff;
-    font-weight: 300;
+    color: #fff; 
+   
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
     font-size: 22px;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .hero-section .dartconfig {
+    color: #fff; 
+   
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
   }
   
   /*
@@ -96,25 +116,25 @@ MISC
   
   
   
-  /*
-  =================================================
-  VIDEO BACKGROUND
-  =================================================
-  */
-  .video-hero{ /* Add this class to parent element */
-    position:relative;
-    background-image: none;
-    background-color:transparent;
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
   }
   
-  #background-video {
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
   }
+  
+ .AlanTurning-img {
+  position: relative;
+  padding-bottom: 56.25%;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+
+ }
